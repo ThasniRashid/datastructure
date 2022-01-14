@@ -139,7 +139,7 @@ void insertion_specified()
 		temp=head;
 		printf("\nEnter the location: ");
 		scanf("%d",&loc);
-		for(i=1;i<loc-1;i++)
+		for(i=1;i<loc;i++)
 		{
 			temp=temp->next;
 			if(temp==NULL)
@@ -277,10 +277,4 @@ void search()
 		}
 }
 	
-
-			
-			
-
-			
-
 
